@@ -1,0 +1,100 @@
+[
+    {
+        "id": 1,
+        "url": "https://www.example.com",
+        "title": "Example Domain",
+        "description": "This domain is for use in illustrative examples in documents.",
+        "keywords": ["example", "demo", "test"],
+        "category": "General",
+        "status": "approved",
+        "dateAdded": "2023-11-01",
+        "lastCrawled": "2023-11-10",
+        "pageRank": 3
+    },
+    {
+        "id": 2,
+        "url": "https://en.wikipedia.org",
+        "title": "Wikipedia",
+        "description": "The Free Encyclopedia - contains millions of articles in many languages",
+        "keywords": ["encyclopedia", "information", "knowledge"],
+        "category": "Reference",
+        "status": "approved",
+        "dateAdded": "2023-10-15",
+        "lastCrawled": "2023-11-12",
+        "pageRank": 9
+    },
+    {
+        "id": 3,
+        "url": "https://www.nytimes.com",
+        "title": "The New York Times",
+        "description": "Breaking news, live coverage, investigations, analysis of politics, business, culture",
+        "keywords": ["news", "newspaper", "journalism"],
+        "category": "News",
+        "status": "approved",
+        "dateAdded": "2023-09-20",
+        "lastCrawled": "2023-11-11",
+        "pageRank": 8
+    },
+    {
+        "id": 4,
+        "url": "https://www.spam-site.com",
+        "title": "Buy Cheap Stuff",
+        "description": "The cheapest products you can find online",
+        "keywords": ["cheap", "products", "discount"],
+        "category": "Shopping",
+        "status": "rejected",
+        "rejectionReason": "Spam content",
+        "dateAdded": "2023-11-05",
+        "lastCrawled": "2023-11-05",
+        "pageRank": 1
+    },
+    {
+        "id": 5,
+        "url": "https://www.tech-news.org",
+        "title": "Tech News Daily",
+        "description": "Latest technology news and gadget reviews",
+        "keywords": ["technology", "gadgets", "reviews"],
+        "category": "Technology",
+        "status": "pending",
+        "dateAdded": "2023-11-14",
+        "lastCrawled": null,
+        "pageRank": null
+    },
+    {
+        "id": 6,
+        "url": "https://www.cooking-recipes.com",
+        "title": "World's Best Recipes",
+        "description": "Thousands of cooking recipes from around the world",
+        "keywords": ["cooking", "recipes", "food"],
+        "category": "Food",
+        "status": "approved",
+        "dateAdded": "2023-08-30",
+        "lastCrawled": "2023-11-09",
+        "pageRank": 5
+    },
+    {
+        "id": 7,
+        "url": "https://www.fitness-guide.net",
+        "title": "Fitness Guide",
+        "description": "Workout plans, nutrition advice, and fitness tips",
+        "keywords": ["fitness", "workout", "exercise"],
+        "category": "Health",
+        "status": "approved",
+        "dateAdded": "2023-09-10",
+        "lastCrawled": "2023-11-08",
+        "pageRank": 4
+    },
+    {
+        "id": 8,
+        "url": "https://www.scam-website.org",
+        "title": "Free Money Generator",
+        "description": "Get rich quick with our secret method",
+        "keywords": ["money", "free", "rich"],
+        "category": "Finance",
+        "status": "rejected",
+        "rejectionReason": "Scam website",
+        "dateAdded": "2023-11-02",
+        "lastCrawled": "2023-11-02",
+        "pageRank": 0
+    }
+]
