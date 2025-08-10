@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nxona Admin</title>
+    <link rel="stylesheet" href="../css/admin.css">
+</head>
+<body>
+    <div class="admin-container">
+        <aside class="sidebar">
+            <h2>Nxona Admin</h2>
+            <nav>
+                <ul>
+                    <li class="active"><a href="index.html">Dashboard</a></li>
+                    <li><a href="sites.html">Website Management</a></li>
+                    <li><a href="ads.html">Ads Management</a></li>
+                    <li><a href="#">Admin Settings</a></li>
+                    <li><a href="#">Logout</a></li>
+                </ul>
+            </nav>
+        </aside>
+        
+        <main class="admin-content">
+            <h1>Admin Dashboard</h1>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>Total Websites</h3>
+                    <p class="stat-number" id="total-websites">0</p>
+                </div>
+                
+                <div class="stat-card">
+                    <h3>Active Ads</h3>
+                    <p class="stat-number" id="active-ads">0</p>
+                </div>
+                
+                <div class="stat-card">
+                    <h3>Approved Sites</h3>
+                    <p class="stat-number" id="approved-sites">0</p>
+                </div>
+                
+                <div class="stat-card">
+                    <h3>Rejected Sites</h3>
+                    <p class="stat-number" id="rejected-sites">0</p>
+                </div>
+            </div>
+            
+            <div class="recent-activity">
+                <h2>Recent Activity</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Action</th>
+                            <th>User</th>
+                            <th>Details</th>
+                        </tr>
+                    </thead>
+                    <tbody id="activity-table">
+                        <!-- Activity data will be inserted here -->
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+
+    <script src="../js/admin.js"></script>
+</body>
+</html>
